@@ -16,7 +16,7 @@ $(document).ready(function(){
   var elements = ["h1", "p", "img"];
   elements.forEach(function(element){
     $(element).click(function(){
-    alert(element);
+    alert("This is a(n) " + element + " tag");
     });//click function end
   });//for each end
 });//doc ready function
